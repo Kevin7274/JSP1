@@ -4,7 +4,7 @@ const password = document.getElementById('pass');
 const formulario = document.getElementById('user');
 
 //generadno eventos
-formulario.addEventListener('submit, login');
+formulario.addEventListener('submit', login);
 
 //funciones a ejecutar
 function login(e){
